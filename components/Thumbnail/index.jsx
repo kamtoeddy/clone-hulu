@@ -18,6 +18,7 @@ const Thumbnail = forwardRef(({ data }, ref) => {
           `${BASE_PATH}${data.backdrop_path || data.poster_path}` ||
           `${BASE_PATH}${data.poster_path}`
         }
+        alt={data?.title || data?.original_title || data?.original_name}
         width={1920}
         height={1080}
       />
