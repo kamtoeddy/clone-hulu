@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images: { domains: ["links.papareact.com", "images.tmdb.org"] },
+  images: { domains: ["images.tmdb.org"] },
   reactStrictMode: true,
 };
 

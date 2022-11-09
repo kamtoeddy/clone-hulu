@@ -13,7 +13,7 @@ import {
 // components
 import HeaderItem from "./Item";
 
-function Header({}) {
+function Header() {
   return (
     <header className="flex flex-col sm:flex-row m-5 justify-between items-center h-auto">
       <div className="flex flex-grow justify-evenly max-w-2xl">
@@ -24,9 +24,10 @@ function Header({}) {
         <HeaderItem title="SEARCH" Icon={SearchIcon} />
         <HeaderItem title="ACCOUNT" Icon={UserIcon} />
       </div>
+
       <Image
         className="object-contain"
-        src="https://links.papareact.com/ua6"
+        src="/hulu-white.webp"
         alt="hulu logo"
         width={200}
         height={100}
